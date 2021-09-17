@@ -23,6 +23,11 @@ const countDown = () => {
     document.querySelector('.second').innerText = textSecond;
 };
 
-//REFRESH COUNTDOWN
+//REFRESH COUNTDOWN - REFRESH EVERY SECOND (1000 MILSECOND IS 1 SECOND )
 setInterval(countDown, 1000);
 
+//DARK MODE CODE
+function darkMode() {
+    let element = document.body;
+    element.classList.toggle('dark-mode-colors');
+}

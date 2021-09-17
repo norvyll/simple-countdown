@@ -6,13 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>ContDown</title>
 </head>
 
 <body>
+    <header>
+        <div class="dark-mode">
+            <i onclick="darkMode()" class="fas fa-moon"></i>
+        </div>
+    </header>
     <section class="coming-soon">
         <div>
-            <h2>We are opening up soon!</h2>
+            <h2>Opening SOON!</h2>
+            <p>Come back later, we are waiting for you</p>
             <div class="countdown">
                 <div class="container-day">
                     <h3 class="day">Time</h3>
@@ -30,6 +38,9 @@
                     <h3 class="second">Time</h3>
                     <h3>Second</h3>
                 </div>
+            </div>
+        </div>
+        <img class="waiting" src="./calendar.svg" alt="" />
     </section>
     <script src="app.js"></script>
 </body>

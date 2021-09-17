@@ -16,6 +16,13 @@ h2 {
     padding: 3rem;
 }
 
+p {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .coming-soon {
     min-height: 100vh;
     display: flex;
@@ -32,4 +39,21 @@ h2 {
 
 .day,.hour,.minute,.second {
     font-size: 3rem;
+}
+
+.waiting {
+    height: 40vh;
+    margin-top: 2rem;
+}
+
+.fas {
+    float: right;
+    margin: 2rem;
+    cursor: pointer;
+    color: #0fb
+}
+
+.dark-mode-colors {
+    color: #0fb;
+    background-color: #222;
 }
