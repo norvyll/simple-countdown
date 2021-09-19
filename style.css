@@ -46,11 +46,20 @@ p {
     margin-top: 2rem;
 }
 
+.dark-mode {
+    text-align: center;
+    justify-items: center;
+}
+
 .fas {
-    float: right;
     margin: 2rem;
     cursor: pointer;
-    color: #0fb
+}
+
+.far {
+    margin: 2rem;
+    cursor: pointer;
+    color: white;
 }
 
 .dark-mode-colors {

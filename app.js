@@ -31,3 +31,10 @@ function darkMode() {
     let element = document.body;
     element.classList.toggle('dark-mode-colors');
 }
+
+//TOGGLE ICONS
+function classToggle() {
+    document.getElementById("toggle").classList.toggle('fas');
+    document.getElementById("toggle").classList.toggle('far');
+}
+document.querySelector('#toggle').addEventListener('click', classToggle);
